@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SPRINT 2 FRONTEND - INSTABUY
 
-## Available Scripts
+Este proyecto se inició con [es.reactjs.org](https://es.reactjs.org/).
 
-In the project directory, you can run:
+## COMANDOS
+
+En el directorio del proyecto, se puede ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ejecuta la aplicación en modo de desarrollo.<br />
+Usar [http://localhost:3000](http://localhost:3000) para verlo en el navegador.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Registro
+
+[http://localhost:3000/sign-up](http://localhost:3000/sign-up)
+
+### Login
+
+[http://localhost:3000/](http://localhost:3000/)
+
+### Home
+
+[http://localhost:3000/home](http://localhost:3000/home)
+
+La página se volverá a cargar si realizan modificaciones.<br />
+Si hay algun error, podra verlo desde la consola.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ejecuta el corredor de pruebas en el modo interactivo.<br />
+Consulte la sección sobre ejecución de pruebas para obtener más información. [Correr Pruebas](https://create-react-app.dev/docs/running-tests/)
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila la aplicación para producción en la carpeta `build`.<br />
+Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
 
 The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+¡Tu aplicación está lista para usarse!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Consulte la sección sobre [Despliegue](https://create-react-app.dev/docs/deployment/) para obtener más información.
 
-### `npm run eject`
+## APRENDE MÁS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Puede obtener más información en la [Documentación para crear una aplicación React](https://create-react-app.dev/docs/getting-started/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para aprender React, consulte la [Documentación React](https://reactjs.org/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### DIVISIÓN DE CÓDIGO
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+https://create-react-app.dev/docs/code-splitting/
 
-## Learn More
+### ANALIZANDO EL TAMAÑO DEL PAQUETE
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://create-react-app.dev/docs/analyzing-the-bundle-size/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### HACER UNA APLICACIÓN WEB PROGRESIVA
 
-### Code Splitting
+https://create-react-app.dev/docs/making-a-progressive-web-app/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### CONFIGURACION AVANZADA
 
-### Analyzing the Bundle Size
+https://create-react-app.dev/docs/advanced-configuration/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### DESPLIEGUE
 
-### Making a Progressive Web App
+https://create-react-app.dev/docs/deployment/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### `npm run build` NO LOGRA MINIFICAR
 
-### Advanced Configuration
+https://create-react-app.dev/docs/troubleshooting/#npm-run-build-fails-to-minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+## HEROKU REGISTER 
+[https://instabuy-frontend.herokuapp.com/sign-up](https://instabuy-frontend.herokuapp.com/sign-up)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## HEROKU LOGIN
+[https://instabuy-frontend.herokuapp.com/](https://instabuy-frontend.herokuapp.com/)
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## HEROKU HOME
+[https://instabuy-frontend.herokuapp.com/home](https://instabuy-frontend.herokuapp.com/home)
