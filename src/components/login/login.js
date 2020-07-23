@@ -14,6 +14,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import {loginUser} from '../../api/login';
 
+import imagenFondo from "../../components/sources/images/logo.PNG"
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -32,12 +34,13 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://source.unsplash.com/random)',
+    flexGrow: 1,
+    backgroundImage:  `url(${imagenFondo})`,
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    backgroundSize: "auto",
+    backgroundPosition: 'center'
   },
   paper: {
     margin: theme.spacing(8, 4),
